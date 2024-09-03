@@ -1,10 +1,16 @@
 const standard = [
     ['I', 1],
+	['IV',4],
 	['V', 5], 
+	['IX',9],
 	['X', 10], 
+	['XL',40];
 	['L', 50], 
+	['XC',90],
 	['C', 100],
-    ['D', 500], 
+	['CD',400];
+    ['D', 500],
+	['CM',900],
     ['M',1000]
     ];
 function convertToRoman(n) {
@@ -26,13 +32,6 @@ function convertToRoman(n) {
 		n-= roman[1];
   }
 	console.log(ans);
-
-	
-	
-
-  //your code here
-	
-
 }
 // You can test your code by running the above function and printing it to console by pressing the run button at the top. To run it with input 36, uncomment the following line
 
